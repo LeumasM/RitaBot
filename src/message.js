@@ -26,12 +26,11 @@ module.exports = function(config, message, edited, deleted)
       if (message.author.id === client.user.id)
       {
       return;
-      }
-   
-  
+      } else {
       if (message.author.discriminator === "0000")
       {
          return;
+      }
       }
    
 
